@@ -4,6 +4,7 @@ end
 
 def deal_card(card)
   card = (1..11).to_a.sample
+  puts "#{card}"
 end
 
 def display_card_total
